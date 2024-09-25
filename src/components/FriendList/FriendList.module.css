@@ -1,0 +1,18 @@
+p {
+    margin: 0;
+}
+
+.friendsList {
+    margin: 50px 0;
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+.friendsItem {
+    width: 70px;
+    border: 1px solid black;
+    border-radius: 10px;
+    padding: 10px;
+    background-color: white;
+}

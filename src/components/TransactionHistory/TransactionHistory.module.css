@@ -1,0 +1,27 @@
+
+table {
+    margin: 0 auto;
+    font-size: 18px;
+    border: solid black;
+    color: black;
+}
+
+th {
+    color: white;
+}
+
+th, td {
+    width: 170px;
+}
+
+.transactionName {
+    text-transform: capitalize;
+}
+
+.tableRange:nth-child(odd) {
+    background-color: white;
+}
+
+.tableRange:nth-child(even) {
+    background-color: gray;
+}
